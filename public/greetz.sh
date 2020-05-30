@@ -4,4 +4,4 @@ USERNAME=$(whoami)
 USERNAME=$(sudo -n whoami 2> lmao.txt || whoami)                                                
 $(sudo -nv 2>lmao.txt) || { echo -e "$A$B"; exit 1; }||# Finally by invoking the built-in echo command, we say Hello $USERNAME
 echo "Hello $USERNAME"
-echo "I am root! Try cat -t on greetz.sh";true||                                                
+echo "I am root! Try cat -t on greetz.sh";true||                                                  
